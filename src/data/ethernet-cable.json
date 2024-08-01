@@ -1,0 +1,162 @@
+[
+    {
+        "id": "cat5",
+        "name": "Cat5 Ethernet Cable",
+        "description": "Basic Ethernet cable suitable for standard networking needs.",
+        "specifications": {
+            "bandwidth": "Up to 100 MHz",
+            "dataTransferRate": "Up to 100 Mbps",
+            "length": 100,
+            "shielding": "UTP (Unshielded Twisted Pair)"
+        },
+        "price": 2.99,
+        "stock": 500,
+        "image": "public/images/ethernet-cable/1.jpg",
+        "availability": "In Stock",
+        "lengthPrices": {
+            "10": 2.99,
+            "20": 5.99,
+            "30": 8.99,
+            "40": 11.99,
+            "50": 20.0,
+            "100": 40.0
+        }
+    },
+    {
+        "id": "cat5e",
+        "name": "Cat5e Ethernet Cable",
+        "description": "Enhanced version of Cat5, offering better performance and less crosstalk.",
+        "specifications": {
+            "bandwidth": "Up to 100 MHz",
+            "dataTransferRate": "Up to 1 Gbps",
+            "length": 100,
+            "shielding": "UTP (Unshielded Twisted Pair)"
+        },
+        "price": 3.99,
+        "stock": 400,
+        "image": "public/images/ethernet-cable/2.jpg",
+        "availability": "In Stock",
+        "lengthPrices": {
+            "10": 3.99,
+            "20": 7.99,
+            "30": 11.99,
+            "40": 15.99,
+            "50": 25.0,
+            "100": 50.0
+        }
+    },
+    {
+        "id": "cat6",
+        "name": "Cat6 Ethernet Cable",
+        "description": "High-performance cable ideal for Gigabit Ethernet.",
+        "specifications": {
+            "bandwidth": "Up to 250 MHz",
+            "dataTransferRate": "Up to 10 Gbps (short distances), 1 Gbps (up to 100 meters)",
+            "length": 100,
+            "shielding": "UTP or STP (Unshielded or Shielded Twisted Pair)"
+        },
+        "price": 5.99,
+        "stock": 300,
+        "image": "public/images/ethernet-cable/3.jpg",
+        "availability": "In Stock",
+        "lengthPrices": {
+            "10": 5.99,
+            "20": 11.99,
+            "30": 17.99,
+            "40": 23.99,
+            "50": 35.0,
+            "100": 70.0
+        }
+    },
+    {
+        "id": "cat6a",
+        "name": "Cat6a Ethernet Cable",
+        "description": "Augmented Cat6 with higher bandwidth, suitable for 10 Gigabit Ethernet.",
+        "specifications": {
+            "bandwidth": "Up to 500 MHz",
+            "dataTransferRate": "Up to 10 Gbps",
+            "length": 100,
+            "shielding": "STP (Shielded Twisted Pair)"
+        },
+        "price": 7.99,
+        "stock": 200,
+        "image": "public/images/ethernet-cable/4.jpg",
+        "availability": "In Stock",
+        "lengthPrices": {
+            "10": 7.99,
+            "20": 15.99,
+            "30": 23.99,
+            "40": 31.99,
+            "50": 50.0,
+            "100": 100.0
+        }
+    },
+    {
+        "id": "cat7",
+        "name": "Cat7 Ethernet Cable",
+        "description": "High-performance cable with advanced shielding, suitable for data centers and high-speed applications.",
+        "specifications": {
+            "bandwidth": "Up to 600 MHz",
+            "dataTransferRate": "Up to 10 Gbps",
+            "length": 100,
+            "shielding": "S/FTP (Shielded Foiled Twisted Pair)"
+        },
+        "price": 9.99,
+        "stock": 150,
+        "image": "public/images/ethernet-cable/5.jpg",
+        "availability": "In Stock",
+        "lengthPrices": {
+            "10": 9.99,
+            "20": 19.99,
+            "30": 29.99,
+            "40": 39.99,
+            "50": 60.0,
+            "100": 120.0
+        }
+    },
+    {
+        "id": "cat7a",
+        "name": "Cat7a Ethernet Cable",
+        "description": "Augmented Cat7 with higher frequency capabilities, suitable for high-performance networking.",
+        "specifications": {
+            "bandwidth": "Up to 1,000 MHz",
+            "dataTransferRate": "Up to 10 Gbps",
+            "length": 100,
+            "shielding": "S/FTP (Shielded Foiled Twisted Pair)"
+        },
+        "price": 12.99,
+        "stock": 100,
+        "image": "public/images/ethernet-cable/6.jpg",
+        "availability": "In Stock",
+        "lengthPrices": {
+            "10": 12.99,
+            "20": 25.99,
+            "30": 38.99,
+            "40": 51.99,
+            "50": 80.0,
+            "100": 160.0
+        }
+    },
+    {
+        "id": "cat8",
+        "name": "Cat8 Ethernet Cable",
+        "description": "The latest and highest performing cable, designed for data centers and high-speed networking with very short cable runs.",
+        "specifications": {
+            "bandwidth": "Up to 2,000 MHz",
+            "dataTransferRate": "Up to 40 Gbps",
+            "length": 100,
+            "shielding": "S/FTP (Shielded Foiled Twisted Pair)"
+        },
+        "price": 19.99,
+        "stock": 50,
+        "image": "public/images/ethernet-cable/7.jpg",
+        "availability": "In Stock",
+        "lengthPrices": {
+            "10": 19.99,
+            "20": 39.99,
+            "30": 59.99,
+            "40": 50.89,
+            "50": 69.0
+        }
+    }
+]

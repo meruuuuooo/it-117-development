@@ -1,0 +1,112 @@
+[
+  {
+      "name": "LG 65EP5G-B",
+      "price": 8499,
+      "screen_size": 65,
+      "resolution": [3840, 2160],
+      "refresh_rate": 120,
+      "response_time": 0.1,
+      "panel_type": "OLED",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/1.jpg"
+  },
+  {
+      "name": "KOORUI 24E3",
+      "price": 115.99,
+      "screen_size": 24,
+      "resolution": [1920, 1080],
+      "refresh_rate": 165,
+      "response_time": 1,
+      "panel_type": "IPS",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/2.jpg"
+  },
+  {
+      "name": "Asus TUF Gaming VG27AQ",
+      "price": 299.89,
+      "screen_size": 27,
+      "resolution": [2560, 1440],
+      "refresh_rate": 165,
+      "response_time": 1,
+      "panel_type": "IPS",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/3.jpg"
+  },
+  {
+      "name": "AOC C27G2Z",
+      "price": 179.99,
+      "screen_size": 27,
+      "resolution": [1920, 1080],
+      "refresh_rate": 240,
+      "response_time": null,
+      "panel_type": "VA",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/4.jpg"
+  },
+  {
+      "name": "MSI G244F",
+      "price": 104.99,
+      "screen_size": 23.8,
+      "resolution": [1920, 1080],
+      "refresh_rate": 170,
+      "response_time": 1,
+      "panel_type": "IPS",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/5.jpg"
+  },
+  {
+      "name": "Samsung Odyssey Neo G95NC",
+      "price": 1767.37,
+      "screen_size": 57,
+      "resolution": [7680, 2160],
+      "refresh_rate": 240,
+      "response_time": 1,
+      "panel_type": "VA",
+      "aspect_ratio": "32:9",
+      "image": "public/images/monitor/6.jpg"
+  },
+  {
+      "name": "MSI G272QPF",
+      "price": 219.99,
+      "screen_size": 27,
+      "resolution": [2560, 1440],
+      "refresh_rate": 170,
+      "response_time": 1,
+      "panel_type": "IPS",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/7.jpg"
+  },
+  {
+      "name": "Asus ROG Swift Pro PG248QP",
+      "price": 881.57,
+      "screen_size": 24.1,
+      "resolution": [1920, 1080],
+      "refresh_rate": 540,
+      "response_time": 0.2,
+      "panel_type": "TN",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/8.jpg"
+  },
+  {
+      "name": "Asus TUF Gaming VG249Q1A",
+      "price": 181.39,
+      "screen_size": 23.8,
+      "resolution": [1920, 1080],
+      "refresh_rate": 165,
+      "response_time": null,
+      "panel_type": "IPS",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/9.jpg"
+  },
+  {
+      "name": "Asus ROG Swift PG32UQX",
+      "price": 1889.99,
+      "screen_size": 32,
+      "resolution": [3840, 2160],
+      "refresh_rate": 144,
+      "response_time": 4,
+      "panel_type": "IPS",
+      "aspect_ratio": "16:9",
+      "image": "public/images/monitor/10.jpg"
+  }
+]

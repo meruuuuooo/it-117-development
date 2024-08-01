@@ -1,0 +1,102 @@
+[
+  {
+      "name": "MSI B650 GAMING PLUS WIFI",
+      "price": 169.99,
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "max_memory": 192,
+      "memory_slots": 4,
+      "color": "Black",
+      "image": "public/images/motherboard/1.jpg"
+  },
+  {
+      "name": "Asus ROG STRIX B650-A GAMING WIFI",
+      "price": 199.99,
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "max_memory": 192,
+      "memory_slots": 4,
+      "color": "Black / Silver",
+      "image": "public/images/motherboard/2.jpg"
+  },
+  {
+      "name": "MSI B760 GAMING PLUS WIFI",
+      "price": 159.99,
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "max_memory": 192,
+      "memory_slots": 4,
+      "color": "Black / Silver",
+      "image": "public/images/motherboard/3.jpg"
+  },
+  {
+      "name": "MSI PRO Z790-A MAX WIFI",
+      "price": 239.99,
+      "socket": "LGA1700",
+      "form_factor": "ATX",
+      "max_memory": 192,
+      "memory_slots": 4,
+      "color": "Silver / Black",
+      "image": "public/images/motherboard/4.jpg"
+  },
+  {
+      "name": "MSI B550 GAMING GEN3",
+      "price": 99.99,
+      "socket": "AM4",
+      "form_factor": "ATX",
+      "max_memory": 128,
+      "memory_slots": 4,
+      "color": "Black",
+      "image": "public/images/motherboard/5.jpg"
+  },
+  {
+      "name": "MSI B450M-A PRO MAX II",
+      "price": 69.98,
+      "socket": "AM4",
+      "form_factor": "Micro ATX",
+      "max_memory": 64,
+      "memory_slots": 2,
+      "color": "Black",
+      "image": "public/images/motherboard/6.jpg"
+  },
+  {
+      "name": "MSI MAG B650 TOMAHAWK WIFI",
+      "price": 199.99,
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "max_memory": 192,
+      "memory_slots": 4,
+      "color": "Black",
+      "image": "public/images/motherboard/7.jpg"
+  },
+  {
+      "name": "Gigabyte B650 GAMING X AX",
+      "price": 179.99,
+      "socket": "AM5",
+      "form_factor": "ATX",
+      "max_memory": 192,
+      "memory_slots": 4,
+      "color": "Black / Gray",
+      "image": "public/images/motherboard/8.jpg"
+  },
+  {
+      "name": "Asus PRIME B550M-A WIFI II",
+      "price": 104.99,
+      "socket": "AM4",
+      "form_factor": "Micro ATX",
+      "max_memory": 128,
+      "memory_slots": 4,
+      "color": "Blue / Silver",
+      "image": "public/images/motherboard/9.jpg"
+  },
+  {
+      "name": "ASRock B650M Pro RS WiFi",
+      "price": 149.99,
+      "socket": "AM5",
+      "form_factor": "Micro ATX",
+      "max_memory": 192,
+      "memory_slots": 4,
+      "color": "Black / Silver",
+      "image": "public/images/motherboard/10.jpg"
+  }
+]

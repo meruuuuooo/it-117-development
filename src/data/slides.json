@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Corsair 4000D Airflow",
+        "price": 104.99,
+        "type": "ATX Mid Tower",
+        "color": "Black",
+        "psu": null,
+        "side_panel": "Tinted Tempered Glass",
+        "external_volume": 48.6,
+        "internal_35_bays": 2,
+        "image": "public/images/case/1.jpg"
+      },
+      {
+        "name": "Thermalright Peerless Assassin 120 SE",
+        "price": 33.9,
+        "rpm": 1550,
+        "noise_level": 25.6,
+        "color": "Black",
+        "size": null,
+        "image": "public/images/cpu-cooler/1.jpg"
+    },
+    {
+        "name": "AMD Ryzen 7 7800X3D",
+        "price": 339,
+        "core_count": 8,
+        "core_clock": 4.2,
+        "boost_clock": 5,
+        "tdp": 120,
+        "graphics": "Radeon",
+        "smt": true,
+        "image": "public/images/cpu/1.jpg"
+    },
+    {
+        "name": "HP HyperX Cloud",
+        "price": null,
+        "type": "Circumaural",
+        "frequency_response": [15, 25],
+        "microphone": true,
+        "wireless": false,
+        "enclosure_type": "Closed",
+        "color": "Black / White",
+        "image": "public/images/headphones/1.jpg"
+      },
+      {
+        "name": "Samsung 980 Pro",
+        "price": 169.99,
+        "capacity": 2000,
+        "price_per_gb": 0.085,
+        "type": "SSD",
+        "cache": 2048,
+        "form_factor": "M.2-2280",
+        "interface": "M.2 PCIe 4.0 X4",
+        "image": "public/images/storage/1.jpg"
+      },
+      {
+        "name": "Logitech G915 Lightspeed",
+        "price": 199.97,
+        "style": "Gaming",
+        "switches": "Logitech GL Tactile",
+        "backlit": "RGB",
+        "tenkeyless": false,
+        "connection_type": "Wireless",
+        "color": "Black",
+        "image": "public/images/keyboards/8.jpg"
+      },
+      {
+        "name": "TEAMGROUP T-Force Delta RGB 32 GB (White)",
+        "price": 106.99,
+        "speed": [5, 6000],
+        "modules": [2, 16],
+        "price_per_gb": 3.343,
+        "color": "White",
+        "first_word_latency": 10,
+        "cas_latency": 30,
+        "image": "public/images/memory/9.jpg"
+    },
+    {
+        "name": "Asus TUF Gaming VG249Q1A",
+        "price": 181.39,
+        "screen_size": 23.8,
+        "resolution": [1920, 1080],
+        "refresh_rate": 165,
+        "response_time": null,
+        "panel_type": "IPS",
+        "aspect_ratio": "16:9",
+        "image": "public/images/monitor/9.jpg"
+    },
+    {
+        "name": "Asus PRIME B550M-A WIFI II",
+        "price": 104.99,
+        "socket": "AM4",
+        "form_factor": "Micro ATX",
+        "max_memory": 128,
+        "memory_slots": 4,
+        "color": "Blue / Silver",
+        "image": "public/images/motherboard/9.jpg"
+    },
+    {
+        "name": "Logitech G502 LIGHTSPEED",
+        "price": 89.99,
+        "tracking_method": "Optical",
+        "connection_type": "Wireless",
+        "max_dpi": 25600,
+        "hand_orientation": "Right",
+        "color": "Black",
+        "image": "public/images/mouse/9.jpg"
+      },
+      {
+        "name": "Gigabyte WINDFORCE OC",
+        "price": 581.19,
+        "chipset": "GeForce RTX 4070",
+        "memory": 12,
+        "core_clock": 1920,
+        "boost_clock": 2490,
+        "color": "Black",
+        "length": 261,
+        "image": "public/images/video-card/2.jpg"
+    }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "HP HyperX Alloy Core",
+    "price": 39.99,
+    "style": "Gaming",
+    "switches": null,
+    "backlit": "RGB",
+    "tenkeyless": false,
+    "connection_type": "Wired",
+    "color": "Black",
+    "image": "public/images/keyboards/1.jpg"
+  },
+  {
+    "name": "Razer Huntsman Mini",
+    "price": 99.99,
+    "style": "Mini",
+    "switches": "Razer Purple Optical Clicky",
+    "backlit": "RGB",
+    "tenkeyless": true,
+    "connection_type": "Wired",
+    "color": "White",
+    "image": "public/images/keyboards/2.jpg"
+  },
+  {
+    "name": "Microsoft Natural Desktop 7000",
+    "price": 769.95,
+    "style": "Ergonomic",
+    "switches": null,
+    "backlit": null,
+    "tenkeyless": false,
+    "connection_type": "Wireless",
+    "color": "Black / Silver",
+    "image": "public/images/keyboards/3.jpg"
+  },
+  {
+    "name": "RK Royal Kludge RK61",
+    "price": 49.99,
+    "style": "Mini",
+    "switches": "RK Red",
+    "backlit": "White",
+    "tenkeyless": true,
+    "connection_type": "Wired, Wireless, Bluetooth Wireless",
+    "color": "White",
+    "image": "public/images/keyboards/4.jpg"
+  },
+  {
+    "name": "SteelSeries Apex Pro TKL (2023)",
+    "price": 249.99,
+    "style": "Gaming",
+    "switches": "SteelSeries OmniPoint 2.0",
+    "backlit": "RGB",
+    "tenkeyless": true,
+    "connection_type": "Wired, Wireless, Bluetooth Wireless",
+    "color": "Black",
+    "image": "public/images/keyboards/5.jpg"
+  },
+  {
+    "name": "Logitech K120",
+    "price": 12.34,
+    "style": "Standard",
+    "switches": null,
+    "backlit": null,
+    "tenkeyless": false,
+    "connection_type": "Wired",
+    "color": "Black",
+    "image": "public/images/keyboards/6.jpg"
+  },
+  {
+    "name": "Redragon K552",
+    "price": 33.99,
+    "style": "Gaming",
+    "switches": "Outemu Blue",
+    "backlit": "Red",
+    "tenkeyless": true,
+    "connection_type": "Wired",
+    "color": "Black",
+    "image": "public/images/keyboards/7.jpg"
+  },
+  {
+    "name": "Logitech G915 Lightspeed",
+    "price": 199.97,
+    "style": "Gaming",
+    "switches": "Logitech GL Tactile",
+    "backlit": "RGB",
+    "tenkeyless": false,
+    "connection_type": "Wireless",
+    "color": "Black",
+    "image": "public/images/keyboards/8.jpg"
+  },
+  {
+    "name": "Razer Huntsman Mini",
+    "price": 95,
+    "style": "Mini",
+    "switches": "Razer Red Optical Linear",
+    "backlit": "RGB",
+    "tenkeyless": true,
+    "connection_type": "Wired",
+    "color": "Black",
+    "image": "public/images/keyboards/9.jpg"
+  },
+  {
+    "name": "SteelSeries Apex 3 TKL RGB",
+    "price": 35.5,
+    "style": "Gaming",
+    "switches": null,
+    "backlit": "RGB",
+    "tenkeyless": true,
+    "connection_type": "Wired",
+    "color": "Black",
+    "image": "public/images/keyboards/10.jpg"
+  }
+]

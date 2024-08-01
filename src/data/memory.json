@@ -1,0 +1,112 @@
+[
+  {
+      "name": "Corsair Vengeance LPX 16 GB",
+      "price": 38.99,
+      "speed": [4, 3200],
+      "modules": [2, 8],
+      "price_per_gb": 2.437,
+      "color": "Black / Yellow",
+      "first_word_latency": 10,
+      "cas_latency": 16,
+      "image": "public/images/memory/1.jpg"
+  },
+  {
+      "name": "Corsair Vengeance 32 GB",
+      "price": 113.99,
+      "speed": [5, 5600],
+      "modules": [2, 16],
+      "price_per_gb": 3.562,
+      "color": "Black",
+      "first_word_latency": 12.857,
+      "cas_latency": 36,
+      "image": "public/images/memory/2.jpg"
+  },
+  {
+      "name": "G.Skill Trident Z5 RGB 32 GB",
+      "price": 117.99,
+      "speed": [5, 6000],
+      "modules": [2, 16],
+      "price_per_gb": 3.687,
+      "color": "Black",
+      "first_word_latency": 12,
+      "cas_latency": 36,
+      "image": "public/images/memory/3.jpg"
+  },
+  {
+      "name": "Corsair Vengeance 32 GB",
+      "price": 114.99,
+      "speed": [5, 6000],
+      "modules": [2, 16],
+      "price_per_gb": 3.593,
+      "color": "Black / Gray",
+      "first_word_latency": 10,
+      "cas_latency": 30,
+      "image": "public/images/memory/4.jpg"
+  },
+  {
+      "name": "Corsair Vengeance RGB Pro 32 GB",
+      "price": 94.99,
+      "speed": [4, 3600],
+      "modules": [2, 16],
+      "price_per_gb": 2.968,
+      "color": "Black",
+      "first_word_latency": 10,
+      "cas_latency": 18,
+      "image": "public/images/memory/5.jpg"
+  },
+  {
+      "name": "G.Skill Trident Z5 RGB 64 GB",
+      "price": 217.99,
+      "speed": [5, 6400],
+      "modules": [2, 32],
+      "price_per_gb": 3.406,
+      "color": "Black / Silver",
+      "first_word_latency": 10,
+      "cas_latency": 32,
+      "image": "public/images/memory/6.jpg"
+  },
+  {
+      "name": "Corsair Vengeance LPX 32 GB",
+      "price": 69.98,
+      "speed": [4, 3600],
+      "modules": [2, 16],
+      "price_per_gb": 2.187,
+      "color": "Black / Yellow",
+      "first_word_latency": 10,
+      "cas_latency": 18,
+      "image": "public/images/memory/7.jpg"
+  },
+  {
+      "name": "Corsair Vengeance RGB 32 GB",
+      "price": 127.99,
+      "speed": [5, 6000],
+      "modules": [2, 16],
+      "price_per_gb": 4,
+      "color": "White",
+      "first_word_latency": 12,
+      "cas_latency": 36,
+      "image": "public/images/memory/8.jpg"
+  },
+  {
+      "name": "TEAMGROUP T-Force Delta RGB 32 GB (White)",
+      "price": 106.99,
+      "speed": [5, 6000],
+      "modules": [2, 16],
+      "price_per_gb": 3.343,
+      "color": "White",
+      "first_word_latency": 10,
+      "cas_latency": 30,
+      "image": "public/images/memory/9.jpg"
+  },
+  {
+      "name": "TEAMGROUP T-Force Delta RGB 32 GB (Black)",
+      "price": 106.99,
+      "speed": [5, 6000],
+      "modules": [2, 16],
+      "price_per_gb": 3.343,
+      "color": "Black",
+      "first_word_latency": 10,
+      "cas_latency": 30,
+      "image": "public/images/memory/10.jpg"
+  }
+]

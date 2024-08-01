@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Logitech G502 Hero",
+    "price": 39.99,
+    "tracking_method": "Optical",
+    "connection_type": "Wired",
+    "max_dpi": 25600,
+    "hand_orientation": "Right",
+    "color": "Black",
+    "image": "public/images/mouse/1.jpg"
+  },
+  {
+    "name": "Logitech G305 LIGHTSPEED",
+    "price": 39.99,
+    "tracking_method": "Optical",
+    "connection_type": "Wired, Wireless",
+    "max_dpi": 12000,
+    "hand_orientation": "Right",
+    "color": "Black",
+    "image": "public/images/mouse/2.jpg"
+  },
+  {
+    "name": "Logitech PRO X Superlight 2",
+    "price": 149,
+    "tracking_method": "Optical",
+    "connection_type": "Wired, Wireless",
+    "max_dpi": 32000,
+    "hand_orientation": "Right",
+    "color": "Black",
+    "image": "public/images/mouse/3.jpg"
+  },
+  {
+    "name": "Razer Basilisk V3",
+    "price": 49.98,
+    "tracking_method": "Optical",
+    "connection_type": "Wired",
+    "max_dpi": 26000,
+    "hand_orientation": "Right",
+    "color": "Black",
+    "image": "public/images/mouse/4.jpg"
+  },
+  {
+    "name": "FinalMouse Air58 Ninja",
+    "price": 574.99,
+    "tracking_method": "Optical",
+    "connection_type": "Wired",
+    "max_dpi": 3200,
+    "hand_orientation": "Right",
+    "color": "Blue",
+    "image": "public/images/mouse/5.jpg"
+  },
+  {
+    "name": "Logitech PRO X Superlight 2",
+    "price": 153.33,
+    "tracking_method": "Optical",
+    "connection_type": "Wired, Wireless",
+    "max_dpi": 32000,
+    "hand_orientation": "Right",
+    "color": "White",
+    "image": "public/images/mouse/6.jpg"
+  },
+  {
+    "name": "Logitech G Pro X Superlight",
+    "price": 110,
+    "tracking_method": "Optical",
+    "connection_type": "Wireless",
+    "max_dpi": 25400,
+    "hand_orientation": "Right",
+    "color": "Black",
+    "image": "public/images/mouse/7.jpg"
+  },
+  {
+    "name": "Razer DeathAdder Essential",
+    "price": 21.99,
+    "tracking_method": "Optical",
+    "connection_type": "Wired",
+    "max_dpi": 6400,
+    "hand_orientation": "Right",
+    "color": "White",
+    "image": "public/images/mouse/8.jpg"
+  },
+  {
+    "name": "Logitech G502 LIGHTSPEED",
+    "price": 89.99,
+    "tracking_method": "Optical",
+    "connection_type": "Wireless",
+    "max_dpi": 25600,
+    "hand_orientation": "Right",
+    "color": "Black",
+    "image": "public/images/mouse/9.jpg"
+  },
+  {
+    "name": "Logitech G305 LIGHTSPEED",
+    "price": 48,
+    "tracking_method": "Optical",
+    "connection_type": "Wired, Wireless",
+    "max_dpi": 12000,
+    "hand_orientation": "Right",
+    "color": "White",
+    "image": "public/images/mouse/10.jpg"
+  }
+]

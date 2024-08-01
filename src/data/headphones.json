@@ -1,0 +1,112 @@
+[
+  {
+    "name": "HP HyperX Cloud",
+    "price": null,
+    "type": "Circumaural",
+    "frequency_response": [15, 25],
+    "microphone": true,
+    "wireless": false,
+    "enclosure_type": "Closed",
+    "color": "Black / White",
+    "image": "public/images/headphones/1.jpg"
+  },
+  {
+    "name": "Logitech PRO X 2 LIGHTSPEED",
+    "price": 236.75,
+    "type": "Circumaural",
+    "frequency_response": [20, 20],
+    "microphone": true,
+    "wireless": true,
+    "enclosure_type": "Closed",
+    "color": "White",
+    "image": "public/images/headphones/2.jpg"
+  },
+  {
+    "name": "Beyerdynamic DT990 Premium Limited-Edition",
+    "price": 159,
+    "type": "Circumaural",
+    "frequency_response": [5, 35],
+    "microphone": false,
+    "wireless": false,
+    "enclosure_type": "Open",
+    "color": "Black",
+    "image": "public/images/headphones/3.jpg"
+  },
+  {
+    "name": "Corsair VOID RGB ELITE",
+    "price": 79.98,
+    "type": "Circumaural",
+    "frequency_response": [20, 30],
+    "microphone": true,
+    "wireless": true,
+    "enclosure_type": "Closed",
+    "color": "White",
+    "image": "public/images/headphones/4.jpg"
+  },
+  {
+    "name": "SteelSeries Arctis Nova 7",
+    "price": 173.71,
+    "type": "Circumaural",
+    "frequency_response": [20, 22],
+    "microphone": true,
+    "wireless": true,
+    "enclosure_type": "Closed",
+    "color": "Black",
+    "image": "public/images/headphones/5.jpg"
+  },
+  {
+    "name": "SteelSeries Arctis 1",
+    "price": 87.24,
+    "type": "Circumaural",
+    "frequency_response": [20, 20],
+    "microphone": true,
+    "wireless": true,
+    "enclosure_type": "Closed",
+    "color": "Black",
+    "image": "public/images/headphones/6.jpg"
+  },
+  {
+    "name": "Logitech G432",
+    "price": 42.99,
+    "type": "Circumaural",
+    "frequency_response": [20, 20],
+    "microphone": true,
+    "wireless": false,
+    "enclosure_type": "Closed",
+    "color": "Black / Blue",
+    "image": "public/images/headphones/7.jpg"
+  },
+  {
+    "name": "Sony XM5",
+    "price": 398,
+    "type": "Circumaural",
+    "frequency_response": [4, 40],
+    "microphone": true,
+    "wireless": true,
+    "enclosure_type": "Closed",
+    "color": "Black",
+    "image": "public/images/headphones/8.jpg"
+  },
+  {
+    "name": "HP HyperX Cloud Alpha",
+    "price": 74.48,
+    "type": "Circumaural",
+    "frequency_response": [13, 27],
+    "microphone": true,
+    "wireless": false,
+    "enclosure_type": "Closed",
+    "color": "Black / Red",
+    "image": "public/images/headphones/9.jpg"
+  },
+  {
+    "name": "Astro A50 + Base Station",
+    "price": 229.99,
+    "type": "Circumaural",
+    "frequency_response": [20, 20],
+    "microphone": true,
+    "wireless": true,
+    "enclosure_type": "Closed",
+    "color": "Black / Gold",
+    "image": "public/images/headphones/10.jpg"
+  }
+]
