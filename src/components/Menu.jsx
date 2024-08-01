@@ -1,6 +1,7 @@
+import PropTypes from "prop-types";
 
-function Menu(props) {
-  
+const Menu = ({ products, selections, isLoading, handleQuantityChange, handleLengthSelection, addProductToCart }) => {
+ 
     return (
         <>
         <div className="nk-content ">
@@ -92,104 +93,100 @@ function Menu(props) {
                                 </div>
                             </div>
                         </div>
-                        {props.isLoading ? (
+                        {isLoading ? (
                             "Loading..."
                         ) : (
                             <div className="nk-block">
                                 <div className="row g-gs">
-                                    {props.products.map((product, index) => (
-                                        <div key={product.id} className="col-xxl-3 col-lg-4 col-sm-6">
-                                            <div className="card card-bordered product-card">
-                                            <div className="product-thumb">
-                                                <a href="html/product-details.html">
-                                                <img
-                                                    className="card-img-top"
-                                                    src={product.image}
-                                                    alt={product.name}
-                                                />
+                                {products.map((product, index) => (
+                                    <div key={product.id} className="col-xxl-3 col-lg-4 col-sm-6">
+                                        <div className="card card-bordered product-card">
+                                        <div className="product-thumb">
+                                            <a href="html/product-details.html">
+                                            <img className="card-img-top" src={product.image} alt={product.name} />
+                                            </a>
+                                            <ul className="product-badges">
+                                            <li>
+                                                <span className="badge bg-success">{product.availability}</span>
+                                            </li>
+                                            </ul>
+                                            <ul className="product-actions">
+                                            <li>
+                                                <a href="#">
+                                                <em className="icon ni ni-heart"></em>
                                                 </a>
-                                                <ul className="product-badges">
-                                                <li>
-                                                    <span className="badge bg-success">{product.availability}</span>
-                                                </li>
-                                                </ul>
-                                                <ul className="product-actions">
-                                                <li>
-                                                    <a href="#">
-                                                    <em className="icon ni ni-heart"></em>
-                                                    </a>
-                                                </li>
-                                                </ul>
-                                            </div>
-                                            <div className="card-inner">
-                                                <h5 className="product-title">{product.name}</h5>
-                                                <ul className="preview-list d-flex justify-content-between">
-                                                <li className="preview-item">
-                                                    <span className="badge bg-outline-danger">
-                                                    &#x20B1;{props.selections[index].selectedPrice}
-                                                    </span>
-                                                </li>
-                                                <li className="preview-item">
-                                                    <span className="badge bg-outline-info">
-                                                    Stock: {product.stock}
-                                                    </span>
-                                                </li>
-                                                </ul>
-                                                <p className="m-0">Specification:</p>
-                                                <ul className="product-tags">
-                                                {[10, 20, 30, 40, 50, 100].map((length) => (
-                                                    <button
-                                                    key={length}
-                                                    type="button"
-                                                    className="btn"
-                                                    data-bs-toggle="button"
-                                                    onClick={() => props.handleLengthSelection(index, length)}
-                                                    disabled={
-                                                        props.selections[index].isSelected &&
-                                                        props.selections[index].selectedLength !== length
-                                                    }
-                                                    >
-                                                    {length}m
-                                                    </button>
-                                                ))}
-                                                </ul>
-                                                <div className="m-3 d-flex justify-content-between">
-                                                <div className="preview-title">Quantity:</div>
-                                                <div className="btn-group btn-group-sm">
-                                                    <button
-                                                    onClick={() => props.handleQuantityChange(index, -1)}
-                                                    type="button"
-                                                    className="btn btn-outline-primary"
-                                                    disabled={props.selections[index].quantity === 1}
-                                                    >
-                                                    -
-                                                    </button>
-                                                    <button type="button" className="btn btn-outline-primary">
-                                                    {props.selections[index].quantity}
-                                                    </button>
-                                                    <button
-                                                    onClick={() => props.handleQuantityChange(index, 1)}
-                                                    type="button"
-                                                    className="btn btn-outline-primary"
-                                                    >
-                                                    +
-                                                    </button>
-                                                </div>
-                                                </div>
+                                            </li>
+                                            </ul>
+                                        </div>
+                                        <div className="card-inner">
+                                            <h5 className="product-title">{product.name}</h5>
+                                            <ul className="preview-list d-flex justify-content-between">
+                                            <li className="preview-item">
+                                                <span className="badge bg-outline-danger">
+                                                &#x20B1;{selections[index].selectedPrice}
+                                                </span>
+                                            </li>
+                                            <li className="preview-item">
+                                                <span className="badge bg-outline-info">
+                                                Stock: {product.stock}
+                                                </span>
+                                            </li>
+                                            </ul>
+                                            <p className="m-0">Specification:</p>
+                                            <ul className="product-tags">
+                                            {[10, 20, 30, 40, 50, 100].map((length) => (
                                                 <button
-                                                className="btn btn-success mt-1"
+                                                key={length}
+                                                type="button"
+                                                className="btn"
+                                                data-bs-toggle="button"
+                                                onClick={() => handleLengthSelection(index, length)}
+                                                disabled={
+                                                    selections[index].isSelected &&
+                                                    selections[index].selectedLength !== length
+                                                }
                                                 >
-                                                Add to Cart
+                                                {length}m
+                                                </button>
+                                            ))}
+                                            </ul>
+                                            <div className="m-3 d-flex justify-content-between">
+                                            <div className="preview-title">Quantity:</div>
+                                            <div className="btn-group btn-group-sm">
+                                                <button
+                                                onClick={() => handleQuantityChange(index, -1)}
+                                                type="button"
+                                                className="btn btn-outline-primary"
+                                                disabled={selections[index].quantity === 1}
+                                                >
+                                                -
+                                                </button>
+                                                <button type="button" className="btn btn-outline-primary">
+                                                {selections[index].quantity}
+                                                </button>
+                                                <button
+                                                onClick={() => handleQuantityChange(index, 1)}
+                                                type="button"
+                                                className="btn btn-outline-primary"
+                                                >
+                                                +
                                                 </button>
                                             </div>
                                             </div>
+                                            <button
+                                            onClick={() => addProductToCart(selections[index])}
+                                            className="btn btn-success mt-1"
+                                            >
+                                            Add to Cart
+                                            </button>
                                         </div>
-                                        )
-                                    )}
+                                        </div>
+                                    </div>
+                                ))}
                                 </div>
                             </div>
                         )}
-                        <div
+                        {/* <div
                             className="nk-add-product toggle-slide toggle-slide-right"
                             data-content="addProduct"
                             data-toggle-screen="any"
@@ -322,7 +319,7 @@ function Menu(props) {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -330,6 +327,15 @@ function Menu(props) {
     </>
         )
 }
+
+Menu.propTypes = {
+    products: PropTypes.array.isRequired,
+    selections: PropTypes.array.isRequired,
+    isLoading: PropTypes.bool.isRequired,
+    handleQuantityChange: PropTypes.func.isRequired,
+    handleLengthSelection: PropTypes.func.isRequired,
+    addProductToCart: PropTypes.func.isRequired,
+  };
 
 export default Menu;
 

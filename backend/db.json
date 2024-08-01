@@ -4,6 +4,7 @@
             "id": 1,
             "name": "Cat5 Ethernet Cable",
             "price": 40.0,
+            "availableStock": 100,
             "availableLength": 100,
             "image": "public/images/ethernet-cable/1.jpg",
             "lengthPrices": {
@@ -19,6 +20,7 @@
             "id": 2,
             "name": "Cat5e Ethernet Cable",
             "price": 50.0,
+            "availableStock": 100,
             "availableLength": 100,
             "image": "public/images/ethernet-cable/2.jpg",
             "lengthPrices": {
@@ -34,6 +36,7 @@
             "id": 3,
             "name": "Cat6 Ethernet Cable",
             "price": 70.0,
+            "availableStock": 100,
             "availableLength": 100,
             "image": "public/images/ethernet-cable/3.jpg",
             "lengthPrices": {
@@ -49,6 +52,7 @@
             "id": 4,
             "name": "Cat6a Ethernet Cable",
             "price": 100.0,
+            "availableStock": 100,
             "availableLength": 100,
             "image": "public/images/ethernet-cable/4.jpg",
             "lengthPrices": {
@@ -79,6 +83,7 @@
             "id": 6,
             "name": "Cat8 Ethernet Cable",
             "price": 200.0,
+            "availableStock": 100,
             "availableLength": 100,
             "image": "public/images/ethernet-cable/6.jpg",
             "lengthPrices": {
@@ -94,6 +99,7 @@
             "id": 7,
             "name": "Fiber Optic Cable",
             "price": 300.0,
+            "availableStock": 100,
             "availableLength": 100,
             "image": "public/images/ethernet-cable/7.jpg",
             "lengthPrices": {

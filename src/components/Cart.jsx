@@ -1,5 +1,5 @@
 
-function Cart() {
+function Cart(props) {
     
 
     return (
@@ -172,8 +172,8 @@ function Cart() {
 											</ul>
 										</div>
 									</div>
-									{cart.length > 0 ? (
-                                        cart.map((item, index) => (
+									{props.cart.length > 0 ? (
+                                        props.altcart.map((item, index) => (
                                         <div key={index} className="nk-tb-item">
                                             <div className="nk-tb-col nk-tb-col-check">
                                             <div className="custom-control custom-control-sm custom-checkbox notext">

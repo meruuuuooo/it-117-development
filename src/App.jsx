@@ -9,6 +9,7 @@ import Login from "./auth/Login";
 import Dashboard from "./components/Dashboard";
 import Menu from "./components/Menu";
 import Product from "./components/Product";
+// import Cart from "./components/Cart";
 
 function App() {
   const [token, setToken] = useState(null);
@@ -28,25 +29,26 @@ function App() {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [selections, setSelections] = useState([]);
+  const [cart, setCart] = useState([]);
+  const [totalAmount, setTotalAmount] = useState(0);
 
   const fetchProducts = async () => {
     setIsLoading(true);
     const response = await axios.get("http://localhost:3000/products");
     const data = await response.data;
 
-    const productsWithQuantities = data.map(product => ({
+    const productsWithQuantities = data.map((product) => ({
       ...product,
-      quantity: 1,
+      quantity: 0,
       selectedLength: 10, // default length
       isSelected: false,
-      selectedPrice: product.lengthPrices[10]
+      selectedPrice: product.lengthPrices[10],
     }));
-    
+
     setProducts(productsWithQuantities);
     setSelections(productsWithQuantities);
     setIsLoading(false);
   };
-
 
   const handleQuantityChange = (index, delta) => {
     setSelections((prevSelections) =>
@@ -77,7 +79,7 @@ function App() {
             isSelected: !isSelected,
             selectedPrice: !isSelected
               ? products[i].lengthPrices[length] * selection.quantity
-              : products[i].lengthPrices[10] * selection.quantity,
+              : products[i].lengthPrices[10] * selection.quantity
           };
         }
         return selection;
@@ -85,43 +87,108 @@ function App() {
     );
   };
 
+  const addProductToCart = (product) => {
+    const productInCart = cart.find((item) => item.id === product.id);
+
+    if (productInCart) {
+      const updatedCart = cart.map((item) =>
+        item.id === product.id
+          ? {
+              ...item,
+              quantity: item.quantity + product.quantity,
+              totalAmount: item.totalAmount + product.selectedPrice,
+            }
+          : item
+      );
+      setCart(updatedCart);
+    } else {
+      const newCartItem = {
+        id: product.id,
+        name: product.name,
+        quantity: product.quantity,
+        selectedLength: product.selectedLength,
+        totalAmount: product.selectedPrice,
+      };
+      setCart([...cart, newCartItem]);
+    }
+
+    setTotalAmount(
+      cart.reduce(
+        (sum, item) =>
+          sum +
+          (item.id === product.id
+            ? item.totalAmount + product.selectedPrice
+            : item.totalAmount),
+        0
+      )
+    );
+
+    // Update product stock
+    setProducts((prevProducts) =>
+      prevProducts.map((item) =>
+        item.id === product.id
+          ? {
+              ...item,
+              stock: item.stock - product.quantity,
+            }
+          : item
+      )
+    );
+    setSelections((prevSelections) =>
+      prevSelections.map((item) =>
+        item.id === product.id
+          ? {
+              ...item,
+              stock: item.stock - product.quantity,
+            }
+          : item
+      )
+    );
+  };
+
   useEffect(() => {
     fetchProducts();
   }, []);
-  
 
   if (!token) {
     return <Login />;
   }
 
   return (
-      <Router>
-        <div className="nk-app-root">
-          <div className="nk-main">
-            <LayoutSideMenu handleLogout={handleLogout} />
-            <div className="nk-wrap">
-              <LayoutHeader />
-              <div className="nk-content">
-                <div className="container-fluid">
-                  <Routes>
-                    <Route path="/" element={<Dashboard />} />
-                    <Route path="/pos" element={<Menu
-                      products={products}
-                      isLoading={isLoading}
-                      selections={selections}
-                      handleQuantityChange={handleQuantityChange}
-                      handleLengthSelection={handleLengthSelection}
-                    />} />
-                    <Route path="/product" element={<Product />} />
-                    {/* Add more routes as needed */}
-                  </Routes>
-                </div>
+    <Router>
+      <div className="nk-app-root">
+        <div className="nk-main">
+          <LayoutSideMenu handleLogout={handleLogout} />
+          <div className="nk-wrap">
+            <LayoutHeader />
+            <div className="nk-content">
+              <div className="container-fluid">
+                <Routes>
+                  <Route path="/" element={<Dashboard />} />
+                  <Route
+                    path="/pos"
+                    element={
+                      <Menu
+                        products={products}
+                        isLoading={isLoading}
+                        selections={selections}
+                        handleQuantityChange={handleQuantityChange}
+                        handleLengthSelection={handleLengthSelection}
+                        addProductToCart={addProductToCart}
+                        cart={cart}
+                      />
+                    }
+                  />
+                  <Route path="/product" element={<Product />} />
+                  {/* Add more routes as needed */}
+                </Routes>
               </div>
-              <LayoutFooter />
             </div>
+            <LayoutFooter />
           </div>
         </div>
-      </Router>
+      </div>
+    </Router>
   );
 }
 
